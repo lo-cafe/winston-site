@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import axios from "axios";
 
 export async function POST(req) {
-  let body = await request.json();
+  let body = await req.json();
   if (body.code) {
     try {
       const payloadObj = {
