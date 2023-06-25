@@ -10,17 +10,23 @@ export async function POST(req) {
         code: body.code,
         redirect_uri: "https://app.winston.lo.cafe/auth-success",
       };
-      const payload = Object.keys(params)
-        .map((key) => `${key}=${encodeURIComponent(params[key])}`)
+      const payload = Object.keys(payloadObj)
+        .map((key) => `${key}=${encodeURIComponent(payloadObj[key])}`)
         .join("&");
 
-
-        const options = {
-         method: 'POST',
-         headers: { 'content-type': 'application/x-www-form-urlencoded' },
-         data: payload,
-         url: 'https://www.reddit.com/api/v1/access_token',
-       }
+      const options = {
+        method: "POST",
+        headers: {
+          "content-type": "application/x-www-form-urlencoded",
+          "User-Agent": "ios:lo.cafe.winston:v0.1.0 (by /u/Kinark)",
+        },
+        data: payload,
+        url: "https://www.reddit.com/api/v1/access_token",
+        auth: {
+          username: process.env.REDDIT_API_USERNAME,
+          password: process.env.REDDIT_API_SECRET,
+        },
+      };
 
       const { data } = await axios(options);
 
@@ -28,7 +34,8 @@ export async function POST(req) {
         { token: data.access_token, refresh: data.refresh_token },
         { status: 200 }
       );
-    } catch {
+    } catch (error) {
+      console.log(error);
       return NextResponse.json({ error: "oops2" }, { status: 403 });
     }
   } else {
