@@ -3,12 +3,11 @@ import axios from "axios";
 
 export async function POST(req) {
   let body = await req.json();
-  if (body.code) {
+  if (body.refreshToken) {
     try {
       const payloadObj = {
-        grant_type: "authorization_code",
-        code: body.code,
-        redirect_uri: "https://app.winston.lo.cafe/auth-success",
+        grant_type: "refresh_token",
+        refresh_token: body.refreshToken,
       };
       const payload = Object.keys(payloadObj)
         .map((key) => `${key}=${encodeURIComponent(payloadObj[key])}`)
@@ -31,7 +30,7 @@ export async function POST(req) {
       const { data } = await axios(options);
 
       return NextResponse.json(
-        { token: data.access_token, refresh: data.refresh_token, expires: data.expires_in },
+        { token: data.access_token, expires: data.expires_in },
         { status: 200 }
       );
     } catch (error) {
