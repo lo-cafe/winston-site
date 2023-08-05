@@ -10,7 +10,9 @@ export default function Home() {
 
   useEffect(() => {
     setUrl(window.location.pathname)
+    window.open(`winstonapp:/${window.location.pathname}`)
   }, []);
+  
   return (
     <main className={styles.main}>
       <div>
