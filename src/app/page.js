@@ -9,7 +9,7 @@ export default function Home() {
   const [url, setUrl] = useState('')
 
   useEffect(() => {
-    setUrl(window.location.pathname)
+    setUrl(location.pathname+location.search)
     // window.open(`winstonapp:/${window.location.pathname}`)
   }, []);
   
