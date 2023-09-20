@@ -7,6 +7,7 @@ import { PiFanFill } from "react-icons/pi";
 import { MdCoffee } from "react-icons/md";
 import { FaJar } from "react-icons/fa6";
 import { GiJumpingRope } from "react-icons/gi";
+import { PiGithubLogoFill } from "react-icons/pi";
 
 import styles from "./page.module.css";
 
@@ -70,6 +71,14 @@ export default function Home() {
               >
                 <FaJar />
                 Tip jar
+              </a>
+              <a
+                target="_blank"
+                className={styles.nice}
+                href="https://github.com/Kinark/winston"
+              >
+                <PiGithubLogoFill />
+                Github
               </a>
             </>
           ) : (

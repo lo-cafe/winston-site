@@ -1,0 +1,65 @@
+{
+   "name": "lo.cafe Repository",
+   "identifier": "lo.cafe.altstore",
+   "subtitle": "Perfect apps from happy devs",
+   "description": "welcome to lo.cafe! have a sit, grab a coffee, here's a safe place",
+   "iconURL": "https://lo.cafe/favicon.png",
+   "headerURL": "https://lo.cafe/lo-cafe-cover.png",
+   "website": "https://lo.cafe",
+   "tintColor": "#4185A9",
+   "featuredApps": [
+      "lo.cafe.winston"
+   ],
+   "apps": [
+      {
+         "name": "Winston",
+         "bundleIdentifier": "lo.cafe.winston",
+         "developerName": "lo.cafe",
+         "subtitle": "Perfect, in every way.",
+         "localizedDescription": "Winston's a beautiful Reddit HTTP client for you to test your API key.",
+         "iconURL": "https://winston.cafe/square-icon.jpg",
+         "tintColor": "#008EFF",
+         "screenshotURLs": [
+            "https://winston.cafe/screenshots/1.png",
+            "https://winston.cafe/screenshots/2.png",
+            "https://winston.cafe/screenshots/3.png",
+            "https://winston.cafe/screenshots/4.png",
+            "https://winston.cafe/screenshots/5.png",
+            "https://winston.cafe/screenshots/6.png",
+            "https://winston.cafe/screenshots/7.png",
+            "https://winston.cafe/screenshots/8.png"
+         ],
+         "versions": [
+            {
+               "version": "0.1",
+               "date": "2023-09-20",
+               "size": 8614,
+               "downloadURL": "https://github.com/Kinark/winston/releases/download/v0.1-alpha/winston.ipa",
+               "localizedDescription": "Winston's a beautiful Reddit HTTP client for you to test your API key.",
+               "minOSVersion": "16.4"
+            }
+         ],
+         "appPermissions": {
+            "entitlements": [
+               {
+                  "name": "com.apple.developer.associated-domains"
+               },
+               {
+                  "name": "com.apple.developer.siri"
+               }
+            ],
+            "privacy": [
+               {
+                  "name": "PhotoLibrary",
+                  "usageDescription": "Winston needs access to your library to be able to download images."
+               },
+               {
+                  "name": "DocumentsFolderUsage",
+                  "usageDescription": "Winston needs access to your documents to save/import themes."
+               }
+            ]
+         }
+      }
+   ],
+   "news": []
+}
