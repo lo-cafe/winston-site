@@ -5,14 +5,14 @@ import styled from "styled-components";
 
 import IconKin from "~/components/IconKin";
 
-import Img1 from "~/assets/themes-screenshots/1.png";
-import Img2 from "~/assets/themes-screenshots/2.png";
-import Img3 from "~/assets/themes-screenshots/3.png";
-import Img4 from "~/assets/themes-screenshots/4.png";
-import Img5 from "~/assets/themes-screenshots/5.png";
-import Img6 from "~/assets/themes-screenshots/6.png";
-import Img7 from "~/assets/themes-screenshots/7.png";
-import Img8 from "~/assets/themes-screenshots/8.png";
+import Img1 from "~/assets/themes-screenshots/1.PNG";
+import Img2 from "~/assets/themes-screenshots/2.PNG";
+import Img3 from "~/assets/themes-screenshots/3.PNG";
+import Img4 from "~/assets/themes-screenshots/4.PNG";
+import Img5 from "~/assets/themes-screenshots/5.PNG";
+import Img6 from "~/assets/themes-screenshots/6.PNG";
+import Img7 from "~/assets/themes-screenshots/7.PNG";
+import Img8 from "~/assets/themes-screenshots/8.PNG";
 
 const Themes = () => (
   <div>
