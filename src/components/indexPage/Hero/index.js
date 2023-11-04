@@ -23,12 +23,12 @@ const Hero = () => (
         </h2>
 
         <div className={s.buttonsWrapper}>
-          <a className="button" href="">
+          <a className="button" href="https://testflight.apple.com/join/3UF8bAUN" target="_blank">
             <span className="icon h">
               <PiFanFill size="1.5rem" /> Testflight
             </span>
           </a>
-          <a className="button" href="">
+          <a className="button" href="https://github.com/Kinark/winston" target="_blank">
             <span className="icon h">
               <AiFillGithub size="1.5rem" /> Github Repo
             </span>
