@@ -2,6 +2,12 @@ import s from "./styles.module.scss";
 
 import IconKin from "~/components/IconKin";
 
+const textAlignToAlignItems = {
+  left: "flex-start",
+  right: "flex-end",
+  center: "center",
+};
+
 const InfoSection = ({
   color,
   icon,
@@ -14,7 +20,11 @@ const InfoSection = ({
 }) => (
   <div
     className={s.wrapper}
-    style={{ alignItems: align ?? "center", maxWidth: width ?? "unset" }}
+    style={{
+      alignItems: textAlignToAlignItems[align] ?? "center",
+      maxWidth: width ?? "unset",
+      textAlign: align ?? "center",
+    }}
   >
     {!!color && !!icon && (
       <IconKin color={color} darkIcon={darkIcon}>

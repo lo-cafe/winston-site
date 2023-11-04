@@ -80,7 +80,7 @@ const MicroInteractions = () => (
           title="Handcrafted in every detail"
           description="We are a team of friends doing something we love just because we like it, of course we&apos;d spend countless hours trying to create the most useless and overcomplicated stuff there is just so the app can get cute."
           description2="For example, we ditched an entire feature of SwiftUI called ”swipe gestures” just to implement our own custom design with tiny little bubbles 🫧"
-          align="right"
+          align="left"
           width={480}
           icon={<PiHandHeartDuotone />}
         />

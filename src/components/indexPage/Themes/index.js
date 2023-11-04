@@ -48,7 +48,6 @@ const Themes = () => (
     <div className="section">
       <div className="container">
         <div className="sideBySide">
-          <NiceVideo src="themesUseMockup" height="75vh" />
           <div className={s.infoSectionWrapper}>
             <InfoSection
               align="right"
@@ -70,6 +69,7 @@ const Themes = () => (
               />
             </div>
           </div>
+          <NiceVideo src="themesUseMockup" height="75vh" />
         </div>
       </div>
     </div>

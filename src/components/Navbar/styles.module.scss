@@ -4,15 +4,19 @@
   display: inline-flex;
   gap: 4px;
   align-items: center;
-  justify-content: space-between;
+  // justify-content: space-between;
   padding: 4px;
   box-sizing: border-box;
   border-radius: 20px;
   backdrop-filter: blur(30px) saturate(2.5);
   border: solid 1px rgba(255, 255, 255, 0.075);
+  @media (max-width: 560px) {
+    width: 100%;
+  }
 }
 
 .styledLink {
+  flex: 1;
   text-align: center;
   color: rgba(255, 255, 255, 0.85);
   text-decoration: none;
@@ -21,10 +25,11 @@
   border-radius: 16px;
   background-color: transparent;
   transition: background-color 0.1s ease-out;
-&.active, &:hover {
-  // color: #0B84FF;
-  background-color: rgba(255, 255, 255, 0.1);
-}
+  &.active,
+  &:hover {
+    // color: #0B84FF;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
 }
 
 .containerHelper {
@@ -40,7 +45,9 @@
     bottom: 10px;
     padding-left: 0;
   }
-  @media (max-width: 956px) {
+  @media (max-width: 870px) {
+    width: 100% !important;
+    padding: 0 10px;
     text-align: center;
   }
 }

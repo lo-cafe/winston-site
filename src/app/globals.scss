@@ -83,7 +83,7 @@ h3 {
 }
 
 .container {
-  width: 95%;
+  width: calc(100% - 32px);
   max-width: 1200px;
   margin: 0 auto;
   /* padding: 0 20px; */
@@ -110,7 +110,7 @@ h3 {
 }
 
 .section {
-  margin: 75px 0;
+  margin: 64px 0;
 }
 
 .semibold {
@@ -134,5 +134,11 @@ h3 {
   &.h {
     flex-direction: row !important;
     gap: 6px !important;
+  }
+}
+
+main {
+  @media (max-width: 560px) {
+    padding-bottom: 48px;
   }
 }
