@@ -33,6 +33,13 @@
       text-align: center;
       padding: 128px 0 12px;
    }
+   &::after {
+      position: absolute;
+      opacity: 0;
+      content: "";
+      pointer-events: none;
+      background-image: url("/lo-cafe-logo/lo-cafe-neon-on.png"), url("/lo-cafe-logo/lo-cafe-neon-off.png");
+   }
 }
 
 .containerHelper {
