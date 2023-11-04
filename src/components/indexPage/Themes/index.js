@@ -3,7 +3,6 @@ import Marquee from "react-fast-marquee";
 import cs from "classnames";
 import { PiPaintRollerDuotone } from "react-icons/pi";
 
-
 import NiceVideo from "~/components/NiceVideo";
 import InfoSection from "~/components/InfoSection";
 
@@ -34,16 +33,16 @@ const Themes = () => (
   screen, you can change everything."
           width={600}
         />
-        <Marquee gradient gradientColor="#000" speed={15}>
-          <Image className={s.niceImg} src={Img1} width={200} alt="" />
-          <Image className={s.niceImg} src={Img2} width={200} alt="" />
-          <Image className={s.niceImg} src={Img3} width={200} alt="" />
-          <Image className={s.niceImg} src={Img4} width={200} alt="" />
-          <Image className={s.niceImg} src={Img5} width={200} alt="" />
-          <Image className={s.niceImg} src={Img6} width={200} alt="" />
-          <Image className={s.niceImg} src={Img7} width={200} alt="" />
-          <Image className={s.niceImg} src={Img8} width={200} alt="" />
-        </Marquee>
+          <Marquee gradientWidth={75} gradient gradientColor="#000" speed={15}>
+            <Image className={s.niceImg} src={Img1} width={200} alt="" />
+            <Image className={s.niceImg} src={Img2} width={200} alt="" />
+            <Image className={s.niceImg} src={Img3} width={200} alt="" />
+            <Image className={s.niceImg} src={Img4} width={200} alt="" />
+            <Image className={s.niceImg} src={Img5} width={200} alt="" />
+            <Image className={s.niceImg} src={Img6} width={200} alt="" />
+            <Image className={s.niceImg} src={Img7} width={200} alt="" />
+            <Image className={s.niceImg} src={Img8} width={200} alt="" />
+          </Marquee>
       </div>
     </div>
     <div className="section">
@@ -53,8 +52,8 @@ const Themes = () => (
           <div className={s.infoSectionWrapper}>
             <InfoSection
               align="right"
-              title="And if it&apos;s amazing, it should feel amazing as well"
-              description="We didn&apos;t want to make theme editing a truggle or a technical thing, instead, we made a system that&apos;s simply a breeze to use."
+              title="And if it's amazing, it should feel amazing as well"
+              description="We didn't want to make theme editing a truggle or a technical thing, instead, we made a system that's simply a breeze to use."
             />
             <div className={s.featuresWrapper}>
               <Feature
@@ -67,7 +66,7 @@ const Themes = () => (
               />
               <Feature
                 icon={customIcon}
-                description="Change accent, menu bar and anything&apos;s colors."
+                description="Change accent, menu bar and anything's colors."
               />
             </div>
           </div>

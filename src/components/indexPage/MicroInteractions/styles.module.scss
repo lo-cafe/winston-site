@@ -54,6 +54,9 @@
   align-items: center;
   justify-content: space-between;
   gap: 8px;
+  @media (max-width: 870px) {
+    order: 1;
+  }
   @media (max-width: 956px) {
     width: 75%;
   }
@@ -74,7 +77,7 @@
   &:first-child {
     top: 0;
   }
-  @media (max-width: 956px) {
+  @media (max-width: 1024px) {
     top: 0;
   }
 }

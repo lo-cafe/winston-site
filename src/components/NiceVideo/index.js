@@ -5,7 +5,7 @@ import s from "./styles.module.scss";
 const NiceVideo = ({ aspectRatio, src, height, className, style, ...rest }) => (
   <div
     className={cs(s.niceVideo, className)}
-    style={{ height: height ?? "100%", ...style }}
+    style={{ ...style }}
     {...rest}
   >
     <video

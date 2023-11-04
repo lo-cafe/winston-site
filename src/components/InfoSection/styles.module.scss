@@ -1,25 +1,37 @@
 .silentP {
-   margin: 0;
-   font-size: 1.25rem;
-   opacity: 0.75;
+  margin: 0;
+  font-size: 1.25rem;
+  opacity: 0.75;
 }
 
 .wrapper {
-   margin: 0 auto;
-   @media (max-width: 956px) {
-      width: 100% !important;
-      max-width: 100% !important;
-   }
-   h3 {
-     margin-top: 8px;
-     @media (max-width: 956px) {
-      margin-top: 0;
-     }
-   }
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 870px) {
+   align-items: center !important;
+}
+  @media (max-width: 956px) {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  h3 {
+    margin-top: 12px;
+    margin-bottom: 4px;
+   //  @media (max-width: 956px) {
+   //    margin-top: 0;
+   //  }
+    @media (max-width: 870px) {
+      text-align: center;
+    }
+  }
 }
 
 .descriptions {
-   display: flex;
-   flex-direction: column;
-   gap: 1.30rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  @media (max-width: 870px) {
+    text-align: center;
+  }
 }

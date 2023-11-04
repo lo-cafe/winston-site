@@ -117,8 +117,8 @@ h3 {
   font-weight: 600;
 }
 
-.disappearOn900 {
-  @media (max-width: 956px) {
+.disappearOn1024 {
+  @media (max-width: 1024px) {
     display: none !important;
   }
 }

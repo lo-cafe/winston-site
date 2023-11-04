@@ -24,7 +24,7 @@ const MicroInteractions = () => (
                 width: "100%"
               }}
             />
-            <div className={cs(s.placeholder, "disappearOn900")}>
+            <div className={cs(s.placeholder, "disappearOn1024")}>
               <div className={s.placeholderTitleWrapper}>
                 <Image src={winstonFace} width={77} height={77} alt="Winston" />
                 <div>

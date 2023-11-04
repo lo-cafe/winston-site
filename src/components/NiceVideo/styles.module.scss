@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 50%;
   video {
     width: 100% !important;
     height: 100% !important;
@@ -13,5 +14,6 @@
   }
   @media (max-width: 560px) {
     height: auto !important;
+    width: 100% !important;
   }
 }

@@ -14,7 +14,7 @@ const InfoSection = ({
 }) => (
   <div
     className={s.wrapper}
-    style={{ textAlign: align ?? "center", maxWidth: width ?? "unset" }}
+    style={{ alignItems: align ?? "center", maxWidth: width ?? "unset" }}
   >
     {!!color && !!icon && (
       <IconKin color={color} darkIcon={darkIcon}>
