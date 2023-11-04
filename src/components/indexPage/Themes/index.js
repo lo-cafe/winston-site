@@ -21,8 +21,8 @@ import editIcon from "~/assets/icons/edit-icon.svg";
 
 const Themes = () => (
   <>
-    <div className={cs("section", s.sectionHelper)}>
-      <div className="container">
+    <div className="container">
+      <div className={cs("section", s.sectionHelper)}>
         <InfoSection
           color="#C85B5B"
           icon="􀎒"

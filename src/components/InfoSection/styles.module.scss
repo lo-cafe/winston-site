@@ -5,12 +5,15 @@
 }
 
 .wrapper {
-   margin: 48px auto;
+   margin: 0 auto;
    @media (max-width: 956px) {
       width: 100% !important;
       max-width: 100% !important;
    }
    h3 {
      margin-top: 8px;
+     @media (max-width: 956px) {
+      margin-top: 0;
+     }
    }
 }

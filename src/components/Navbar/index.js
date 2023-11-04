@@ -7,12 +7,20 @@ import s from "./styles.module.scss";
 
 const StyledLink = ({ active, children, ...rest }) => (
   <Link
-    className={s.styledLink}
-    style={{ background: active ? "rgba(255,255,255,0.1)" : "" }}
+  className={cs({ [s.styledLink]: true, [s.active]: active })}
     {...rest}
   >
     {children}
   </Link>
+);
+
+const StyledAnchor = ({ active, children, ...rest }) => (
+  <a
+    className={cs({ [s.styledLink]: true, [s.active]: active })}
+    {...rest}
+  >
+    {children}
+  </a>
 );
 
 const Navbar = () => {
@@ -20,15 +28,39 @@ const Navbar = () => {
   return (
     <div className={cs("container", s.containerHelper)}>
       <nav className={s.styledNavbar}>
-        <StyledLink href="/" active={pathname === "/"}>
+        {/* <StyledLink href="/" active={pathname === "/"}>
           􀎟 Home
-        </StyledLink>
-        <StyledLink href="/privacy" active={pathname === "/privacy"}>
+        </StyledLink> */}
+        {/* <StyledLink href="/privacy" active={pathname === "/privacy"}>
           􀉼 Privacy Policy
-        </StyledLink>
-        <StyledLink href="/github" active={pathname === "/github"}>
+        </StyledLink> */}
+        <StyledAnchor
+          href="https://discord.gg/lo-cafe"
+          target="_blank"
+        >
+          􁌙 Testflight
+        </StyledAnchor>
+        <StyledAnchor
+          href="https://discord.gg/lo-cafe"
+          target="_blank"
+        >
+          􀝋 Discord
+        </StyledAnchor>
+        <StyledAnchor
+          href="https://github.com/Kinark/winston"
+          target="_blank"
+        >
           􂁿 Github
-        </StyledLink>
+        </StyledAnchor>
+        <StyledAnchor href="https://ko-fi.com/locafe" target="_blank">
+          􀊵 Tip
+        </StyledAnchor>
+        <StyledAnchor
+          href="https://patreon.com/user?u=93745105 "
+          target="_blank"
+        >
+          􀧢 Patreon
+        </StyledAnchor>
       </nav>
     </div>
   );

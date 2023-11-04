@@ -5,10 +5,17 @@
 
 .sectionHelper {
    margin-top: 125px;
+   display: flex;
+   flex-direction: column;
+   gap: 56px;
    @media (max-width: 956px) {
-      margin-top: 0;
+      margin-top: 125px;
     }
 }
+
+// .container {
+//    background: red;
+//  }
 
 .niceImg {
    border-radius: 24px;
@@ -17,12 +24,14 @@
 
 .featuresWrapper {
    display: flex;
+   flex-wrap: wrap;
    flex-direction: row;
    gap: 8px;
    margin: 16px 0;
 }
 
 .featureWrapper {
+   flex: 1;
    display: flex;
    padding: 12px 16px;
    flex-direction: column;
