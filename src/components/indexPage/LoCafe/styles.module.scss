@@ -2,6 +2,15 @@
   margin: 108px 0 72px;
 }
 
+.loCafeLink {
+  display: block;
+  width: 100%;
+  pointer-events: none;
+  * {
+    pointer-events: all;
+  }
+}
+
 .wrapper,
 .content {
   display: flex;

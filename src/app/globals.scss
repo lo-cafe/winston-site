@@ -95,7 +95,7 @@ h3 {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 0 16px;
+  padding: 0;
   gap: 32px;
   width: 100%;
   @media (max-width: 870px) {
@@ -138,6 +138,7 @@ h3 {
 }
 
 main {
+  overflow: hidden;
   @media (max-width: 560px) {
     padding-bottom: 48px;
   }

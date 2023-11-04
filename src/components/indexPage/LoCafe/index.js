@@ -16,7 +16,7 @@ const LoCafe = () => (
         active development by:
       </p>
     </div>
-    <a href="https://lo.cafe" target="_blank">
+    <a href="https://lo.cafe" className={s.loCafeLink} target="_blank">
       <LoCafeLogo />
       {/* <h1>
         <JetBrains>lo.cafe</JetBrains>
