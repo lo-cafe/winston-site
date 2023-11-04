@@ -9,10 +9,10 @@ const NiceVideo = ({ aspectRatio, src, height, className, style, ...rest }) => (
     {...rest}
   >
     <video
-      playsInline="true"
-      autoPlay="true"
-      muted="true"
-      loop="true"
+      playsInline
+      autoPlay
+      muted
+      loop
       preload="auto"
       style={{ aspectRatio: aspectRatio ?? "9/16" }}
     >
