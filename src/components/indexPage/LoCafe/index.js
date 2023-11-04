@@ -23,7 +23,7 @@ const LoCafe = () => (
         <JetBrains>
           welcome! have a sit, grab a coffee,
           <br />
-          here's a safe place
+          here&apos;s a safe place
         </JetBrains>
       </p>
     </a>

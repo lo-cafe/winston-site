@@ -29,7 +29,7 @@ export default function Home() {
           width="128"
           height="128"
         />
-        <h2>{url == "/" ? "Hello! I'm Winston!" : "Winston got ya"}</h2>
+        <h2>{url == "/" ? "Hello! I&apos;m Winston!" : "Winston got ya"}</h2>
         {
          url == "/" && (
             <>

@@ -28,7 +28,7 @@ const MicroInteractions = () => (
                 <Image src={winstonFace} width={77} height={77} alt="Winston" />
                 <div>
                   <h5>􀓕 BOOM!</h5>
-                  <p>There's nothing else to show here.</p>
+                  <p>There&apos;s nothing else to show here.</p>
                 </div>
               </div>
               <p>
@@ -77,7 +77,8 @@ const MicroInteractions = () => (
         <InfoSection
           color="#76BBED"
           title="Handcrafted in every detail"
-          description="We are a team of friends doing something we love just because we like it, of course we'd spend countless hours trying to create the most useless and overcomplicated stuff there is just so the app can get cute.\n\nFor example, we ditched an entire feature of SwiftUI called ”swipe gestures” just to implement our own custom design with tiny little bubbles 🫧 "
+          description="We are a team of friends doing something we love just because we like it, of course we&apos;d spend countless hours trying to create the most useless and overcomplicated stuff there is just so the app can get cute."
+          description2="For example, we ditched an entire feature of SwiftUI called ”swipe gestures” just to implement our own custom design with tiny little bubbles 🫧"
           align="right"
           width={480}
           icon="􀲯"
