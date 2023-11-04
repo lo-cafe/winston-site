@@ -28,6 +28,7 @@ export default function RootLayout({ children }) {
       <meta name="twitter:description" content={metadata.description} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:image:src" content="https://winston.cafe/cover.png" />
+      <meta name="theme-color" content="#000000" />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
