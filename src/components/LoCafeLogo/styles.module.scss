@@ -1,0 +1,45 @@
+.logoWrapper {
+  height: 92px;
+  width: 394px;
+  overflow: visible;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 894px;
+    height: 571.5px;
+    background-image: url("/lo-cafe-logo/lo-cafe-neon-on.png");
+    background-position: center;
+    background-size: 894px 571.5px;
+    transition: background-image 0.1s;
+    pointer-events: none;
+  }
+
+  &:hover {
+    &::after {
+      animation: neon 1.5s steps(1, end) infinite alternate;
+    }
+  }
+}
+
+@keyframes neon {
+  0%,
+  22%,
+  36%,
+  75%,
+  85%,
+  100% {
+    background-image: url("/lo-cafe-logo/lo-cafe-neon-on.png");
+  }
+  28%,
+  33%,
+  52%,
+  57%,
+  77%,
+  82% {
+    background-image: url("/lo-cafe-logo/lo-cafe-neon-off.png");
+  }
+}

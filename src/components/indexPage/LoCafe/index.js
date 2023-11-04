@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import JetBrains from "~/components/JetBrains";
+import LoCafeLogo from "~/components/LoCafeLogo";
 
 import s from "./styles.module.scss";
 import winstonFlat from "~/assets/icons/winston.svg";
@@ -16,9 +17,10 @@ const LoCafe = () => (
       </p>
     </div>
     <a href="https://lo.cafe" target="_blank">
-      <h1>
+      <LoCafeLogo />
+      {/* <h1>
         <JetBrains>lo.cafe</JetBrains>
-      </h1>
+      </h1> */}
       <p>
         <JetBrains>
           welcome! have a sit, grab a coffee,
