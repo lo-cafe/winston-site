@@ -3,13 +3,23 @@ import "./globals.scss";
 import Navbar from "~/components/Navbar";
 
 export const metadata = {
-  title: "Winston",
-  description: "Redirect page to the app",
+  title: "Winston for Reddit",
+  description:
+    "An iOS native not-client developer tool app for devs to test their API keys.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <meta name="description" content="" />
+      <meta name="keywords" content="winston, reddit, apollo, client, api" />
+      <meta name="robots" content="index, follow" />
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="language" content="English" />
+      <meta name="author" content="lo.cafe" />
+      <meta property="og:url" content="https://winston.cafe" />
+      <meta property="og:image" content="https://winston.cafe/cover.png" />
+
       <link
         rel="apple-touch-icon"
         sizes="180x180"
