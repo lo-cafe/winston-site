@@ -1,21 +1,27 @@
 .logoWrapper {
   height: 92px;
-  width: 394px;
+  width: 90%;
+  max-width: 394px;
   overflow: visible;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   &::after {
+    @media (max-width: 560px) {
+      animation: neon 1.75s steps(1, end) infinite alternate;
+    }
     content: "";
     position: absolute;
-    width: 894px;
+    width: 226.9035533%;
+    max-width: 894px;
     height: 571.5px;
-    background-image: url("/lo-cafe-logo/lo-cafe-neon-on.png");
+    background-image: url(/lo-cafe-logo/lo-cafe-neon-on.png);
     background-position: center;
-    background-size: 894px 571.5px;
+    background-size: 100% auto;
     transition: background-image 0.1s;
     pointer-events: none;
+    background-repeat: no-repeat;
   }
 
   &:hover {
