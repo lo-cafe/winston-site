@@ -27,6 +27,9 @@
     &:hover {
       animation: neon 1.5s steps(1, end) infinite alternate;
     }
+    @media (max-width: 560px) {
+      animation: neon 1.75s steps(1, end) infinite alternate;
+    }
   }
   p {
     position: relative;
