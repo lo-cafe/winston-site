@@ -39,7 +39,7 @@ const Navbar = () => {
         <StyledAnchor href="https://discord.gg/lo-cafe" target="_blank">
           <BsDiscord size={20} /> Discord
         </StyledAnchor>
-        <StyledAnchor href="https://github.com/Kinark/winston" target="_blank">
+        <StyledAnchor href="https://github.com/lo-cafe/winston" target="_blank">
           <AiFillGithub size={20} /> Github
         </StyledAnchor>
         <StyledAnchor href="https://ko-fi.com/locafe" target="_blank">

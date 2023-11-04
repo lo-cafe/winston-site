@@ -5,4 +5,4 @@ https://winston.lo.cafe
 https://winston.cafe
 
 You can find Winston's official repo here:
-https://github.com/Kinark/winston
+https://github.com/lo-cafe/winston

@@ -28,7 +28,7 @@ const Hero = () => (
               <PiFanFill size="1.5rem" /> Testflight
             </span>
           </a>
-          <a className="button" href="https://github.com/Kinark/winston" target="_blank">
+          <a className="button" href="https://github.com/lo-cafe/winston" target="_blank">
             <span className="icon h">
               <AiFillGithub size="1.5rem" /> Github Repo
             </span>

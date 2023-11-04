@@ -75,7 +75,7 @@ export default function Home() {
               <a
                 target="_blank"
                 className={styles.nice}
-                href="https://github.com/Kinark/winston"
+                href="https://github.com/lo-cafe/winston"
               >
                 <PiGithubLogoFill />
                 Github
