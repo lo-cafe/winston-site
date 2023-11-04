@@ -18,12 +18,16 @@ export default function RootLayout({ children }) {
       <meta name="language" content="English" />
       <meta name="author" content="lo.cafe" />
       <meta property="og:type" content="website" />
-      <meta property="og:title" content="Winston for Reddit" />
-      <meta property="og:description" content="An iOS native not-client developer tool app for devs to test their API keys." />
+      <meta property="og:title" content={metadata.title} />
+      <meta property="og:description" content={metadata.description} />
       <meta property="og:url" content="https://winston.cafe" />
       <meta property="og:image" content="https://winston.cafe/cover.png" />
-      <meta name="og:site_name" content="Winston for Reddit" />
-
+      <meta name="og:site_name" content={metadata.title} />
+      <meta name="twitter:site" content="@locafe_24h" />
+      <meta name="twitter:title" content={metadata.title} />
+      <meta name="twitter:description" content={metadata.description} />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image:src" content="https://winston.cafe/cover.png" />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
