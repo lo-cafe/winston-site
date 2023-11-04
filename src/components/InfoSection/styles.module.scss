@@ -1,0 +1,16 @@
+.silentP {
+   margin: 0;
+   font-size: 1.25rem;
+   opacity: 0.75;
+}
+
+.wrapper {
+   margin: 48px auto;
+   @media (max-width: 956px) {
+      width: 100% !important;
+      max-width: 100% !important;
+   }
+   h3 {
+     margin-top: 8px;
+   }
+}

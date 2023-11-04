@@ -1,13 +1,15 @@
-import Container from "~/components/Container";
 import Hero from "~/components/indexPage/Hero";
 import Themes from "~/components/indexPage/Themes";
+import MicroInteractions from "~/components/indexPage/MicroInteractions";
+import Stats from "~/components/indexPage/Stats";
 
 export default function Home() {
   return (
-    <Container>
+    <>
       <Hero />
+      <MicroInteractions />
       <Themes />
-      <Hero />
-    </Container>
+      <Stats />
+    </>
   );
 }

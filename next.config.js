@@ -8,7 +8,7 @@ const nextConfig = {
           // are checked but before dynamic routes
           {
             source: '/:path*',
-            destination: `/`,
+            destination: `/helper`,
           },
         ],
       }
