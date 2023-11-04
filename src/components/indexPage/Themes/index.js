@@ -22,7 +22,7 @@ import editIcon from "~/assets/icons/edit-icon.svg";
 
 const Themes = () => (
   <>
-    <div className="container">
+    {/* <div className="container"> */}
       <div className={cs("section", s.sectionHelper)}>
         <InfoSection
           color="#C85B5B"
@@ -44,7 +44,7 @@ const Themes = () => (
             <Image className={s.niceImg} src={Img8} width={200} alt="" />
           </Marquee>
       </div>
-    </div>
+    {/* </div> */}
     <div className="section">
       <div className="container">
         <div className="sideBySide">
