@@ -9,7 +9,7 @@
   align-items: center;
   &::after {
     @media (max-width: 560px) {
-      animation: neon 1.75s steps(1, end) infinite alternate;
+      animation: neon 2s steps(1, end) infinite alternate;
     }
     content: "";
     position: absolute;
