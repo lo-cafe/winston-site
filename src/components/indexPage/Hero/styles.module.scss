@@ -1,0 +1,35 @@
+.buttonsWrapper {
+   display: flex;
+   flex-direction: row;
+   gap: 8px;
+   margin: 16px 0;
+   @media (max-width: 956px) {
+      justify-content: center;
+   }
+}
+
+.textColumn {
+   width: 60%;
+   margin: 0 auto;
+   @media (max-width: 956px) {
+      width: 100%;
+   }
+}
+
+.description {
+   margin: 0;
+   font-size: 1.5rem;
+}
+
+.sideBySideHelper {
+   padding: 0 72px;
+   min-height: 100vh;
+   @media (max-width: 956px) {
+      text-align: center;
+      padding: 128px 0 12px;
+   }
+}
+
+.containerHelper {
+   margin: 150px auto;
+}

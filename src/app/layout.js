@@ -1,17 +1,20 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+import "./globals.scss";
+
+import Navbar from "~/components/Navbar";
 
 export const metadata = {
-  title: 'Winston',
-  description: 'Redirect page to the app',
-}
+  title: "Winston",
+  description: "Redirect page to the app",
+};
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>
+        <Navbar />
+        <main>{children}</main>
+      </body>
     </html>
-  )
+  );
 }
