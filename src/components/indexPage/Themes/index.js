@@ -23,27 +23,27 @@ import editIcon from "~/assets/icons/edit-icon.svg";
 const Themes = () => (
   <>
     {/* <div className="container"> */}
-      <div className={cs("section", s.sectionHelper)}>
-        <InfoSection
-          color="#C85B5B"
-          icon={<PiPaintRollerDuotone />}
-          title="Ridiculous theming system"
-          description="We wanted to make winston adapt to you want it to be, so we made possible to
+    <div className={cs("section", s.sectionHelper)}>
+      <InfoSection
+        color="#C85B5B"
+        icon={<PiPaintRollerDuotone />}
+        title="Ridiculous theming system"
+        description="We wanted to make winston adapt to you want it to be, so we made possible to
   edit virtually everything in the app, from the subs list to the settings
   screen, you can change everything."
-          width={600}
-        />
-          <Marquee gradientWidth={75} gradient gradientColor="#000" speed={15}>
-            <Image className={s.niceImg} src={Img1} width={200} alt="" />
-            <Image className={s.niceImg} src={Img2} width={200} alt="" />
-            <Image className={s.niceImg} src={Img3} width={200} alt="" />
-            <Image className={s.niceImg} src={Img4} width={200} alt="" />
-            <Image className={s.niceImg} src={Img5} width={200} alt="" />
-            <Image className={s.niceImg} src={Img6} width={200} alt="" />
-            <Image className={s.niceImg} src={Img7} width={200} alt="" />
-            <Image className={s.niceImg} src={Img8} width={200} alt="" />
-          </Marquee>
-      </div>
+        width={600}
+      />
+      <Marquee gradientWidth={75} gradient gradientColor="#000" speed={15}>
+        <Image className={s.niceImg} src={Img1} width={200} alt="" />
+        <Image className={s.niceImg} src={Img2} width={200} alt="" />
+        <Image className={s.niceImg} src={Img3} width={200} alt="" />
+        <Image className={s.niceImg} src={Img4} width={200} alt="" />
+        <Image className={s.niceImg} src={Img5} width={200} alt="" />
+        <Image className={s.niceImg} src={Img6} width={200} alt="" />
+        <Image className={s.niceImg} src={Img7} width={200} alt="" />
+        <Image className={s.niceImg} src={Img8} width={200} alt="" />
+      </Marquee>
+    </div>
     {/* </div> */}
     <div className="section">
       <div className="container">
