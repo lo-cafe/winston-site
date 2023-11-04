@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
 import cs from "classnames";
+import { PiPaintRollerDuotone } from "react-icons/pi";
+
 
 import NiceVideo from "~/components/NiceVideo";
 import InfoSection from "~/components/InfoSection";
@@ -25,7 +27,7 @@ const Themes = () => (
       <div className={cs("section", s.sectionHelper)}>
         <InfoSection
           color="#C85B5B"
-          icon="􀎒"
+          icon={<PiPaintRollerDuotone />}
           title="Ridiculous theming system"
           description="We wanted to make winston adapt you want it to be, so we made possible to
   edit virtually everything in the app, from the subs list to the settings

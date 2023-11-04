@@ -1,5 +1,6 @@
 import Image from "next/image";
 import cs from "classnames";
+import { PiHandHeartDuotone } from "react-icons/pi";
 
 import NiceVideo from "~/components/NiceVideo";
 import InfoSection from "~/components/InfoSection";
@@ -27,7 +28,7 @@ const MicroInteractions = () => (
               <div className={s.placeholderTitleWrapper}>
                 <Image src={winstonFace} width={77} height={77} alt="Winston" />
                 <div>
-                  <h5>􀓕 BOOM!</h5>
+                  <h5>BOOM!</h5>
                   <p>There&apos;s nothing else to show here.</p>
                 </div>
               </div>
@@ -81,7 +82,7 @@ const MicroInteractions = () => (
           description2="For example, we ditched an entire feature of SwiftUI called ”swipe gestures” just to implement our own custom design with tiny little bubbles 🫧"
           align="right"
           width={480}
-          icon="􀲯"
+          icon={<PiHandHeartDuotone />}
         />
       </div>
     </div>

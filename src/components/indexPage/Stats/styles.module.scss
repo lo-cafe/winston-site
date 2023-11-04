@@ -4,6 +4,8 @@
    gap: 0;
    @media (max-width: 956px) {
       flex-direction: column;
+      gap: 24px;
+      margin-top: 16px;
    }
 }
 

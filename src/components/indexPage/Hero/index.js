@@ -1,5 +1,7 @@
 import Image from "next/image";
 import cs from "classnames";
+import { PiFanFill } from "react-icons/pi";
+import { AiFillGithub } from "react-icons/ai";
 
 import NiceVideo from "~/components/NiceVideo";
 
@@ -19,8 +21,8 @@ const Hero = () => (
         </h2>
 
         <div className={s.buttonsWrapper}>
-          <a className="button" href="">􁌙 Testflight</a>
-          <a className="button" href="">􂁿 Github Repo</a>
+          <a className="button" href=""><span className="icon h"><PiFanFill size="1.5rem" /> Testflight</span></a>
+          <a className="button" href=""><span className="icon h"><AiFillGithub size="1.5rem" /> Github Repo</span></a>
         </div>
 
         <div className={s.description}>

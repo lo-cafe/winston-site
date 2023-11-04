@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
+import { PiShootingStarDuotone } from "react-icons/pi";
+
 
 import NiceVideo from "~/components/NiceVideo";
 import InfoSection from "~/components/InfoSection";
@@ -12,7 +14,7 @@ const Stats = () => (
       <InfoSection
         darkIcon
         color="#FFFA81"
-        icon="􀋃"
+        icon={<PiShootingStarDuotone />}
         title="And Winston is getting famous!"
         description="Take a look at some numbers!"
       />
