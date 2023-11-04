@@ -7,6 +7,7 @@ const InfoSection = ({
   icon,
   title,
   description,
+  description2,
   align,
   width,
   darkIcon,
@@ -21,7 +22,10 @@ const InfoSection = ({
       </IconKin>
     )}
     <h3>{title}</h3>
-    <p className={s.silentP}>{description}</p>
+    <div className={s.descriptions}>
+      <p className={s.silentP}>{description}</p>
+      {!!description2 && <p className={s.silentP}>{description2}</p>}
+    </div>
   </div>
 );
 

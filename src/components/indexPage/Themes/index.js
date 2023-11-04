@@ -51,8 +51,8 @@ const Themes = () => (
           <div className={s.infoSectionWrapper}>
             <InfoSection
               align="right"
-              title="And if it's amazing, it should feel amazing as well"
-              description="We didn't want to make theme editing a truggle or a technical thing, instead, we made a system that's simply a breeze to use."
+              title="And if it&apos;s amazing, it should feel amazing as well"
+              description="We didn&apos;t want to make theme editing a truggle or a technical thing, instead, we made a system that&apos;s simply a breeze to use."
             />
             <div className={s.featuresWrapper}>
               <Feature
@@ -65,7 +65,7 @@ const Themes = () => (
               />
               <Feature
                 icon={customIcon}
-                description="Change accent, menu bar and anything's colors."
+                description="Change accent, menu bar and anything&apos;s colors."
               />
             </div>
           </div>
