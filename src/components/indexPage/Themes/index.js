@@ -28,7 +28,7 @@ const Themes = () => (
           color="#C85B5B"
           icon={<PiPaintRollerDuotone />}
           title="Ridiculous theming system"
-          description="We wanted to make winston adapt to you want it to be, so we made possible to
+          description="We wanted to make winston adapt to the way you want it to be, so we made possible to
   edit virtually everything in the app, from the subs list to the settings
   screen, you can change everything."
           width={600}
