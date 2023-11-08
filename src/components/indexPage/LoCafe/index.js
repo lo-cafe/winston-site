@@ -16,7 +16,12 @@ const LoCafe = () => (
         active development by:
       </p>
     </div>
-    <a href="https://lo.cafe" className={s.loCafeLink} target="_blank">
+    <a
+      href="https://lo.cafe"
+      className={s.loCafeLink}
+      target="_blank"
+      style={{ outline: "none" }}
+    >
       <LoCafeLogo />
       {/* <h1>
         <JetBrains>lo.cafe</JetBrains>
