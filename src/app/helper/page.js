@@ -60,7 +60,7 @@ export default function Home() {
               <a
                 target="_blank"
                 className={styles.nice}
-                href="https://patreon.com/user?u=93745105"
+                href="https://patreon.com/locafe"
               >
                 <FaPatreon /> Patreon
               </a>
