@@ -33,7 +33,7 @@ const Navbar = () => {
         {/* <StyledLink href="/privacy" active={pathname === "/privacy"}>
           􀉼 Privacy Policy
         </StyledLink> */}
-        <StyledAnchor href="https://discord.gg/lo-cafe" target="_blank">
+        <StyledAnchor href="https://testflight.apple.com/join/3UF8bAUN" target="_blank">
           <PiFanFill size={20} /> Testflight
         </StyledAnchor>
         <StyledAnchor href="https://discord.gg/lo-cafe" target="_blank">
@@ -46,7 +46,7 @@ const Navbar = () => {
           <SiKofi size={20} /> Tip
         </StyledAnchor>
         <StyledAnchor
-          href="https://patreon.com/user?u=93745105 "
+          href="https://patreon.com/locafe "
           target="_blank"
         >
           <BiLogoPatreon size={20} /> Patreon
