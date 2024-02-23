@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import JetBrains from "~/components/JetBrains";
-import LoCafeLogo from "~/components/LoCafeLogo";
+import BlinkingLogo from "~/components/BlinkingLogo";
 
 import s from "./styles.module.scss";
 import winstonFlat from "~/assets/icons/winston.svg";
@@ -22,7 +22,7 @@ const LoCafe = () => (
       target="_blank"
       style={{ outline: "none" }}
     >
-      <LoCafeLogo />
+      <BlinkingLogo />
       {/* <h1>
         <JetBrains>lo.cafe</JetBrains>
       </h1> */}
