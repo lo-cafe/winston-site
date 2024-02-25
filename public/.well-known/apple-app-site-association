@@ -2,7 +2,7 @@
   "applinks": {
       "details": [
            {
-             "appIDs": [ "Z2NNLU4F7U.lo.cafe.winston" ],
+             "appIDs": [ "Z2NNLU4F7U.lo.cafe.winston", "Z2NNLU4F7U.lo.cafe.winston.beta", "Z2NNLU4F7U.lo.cafe.winston.alpha", "Z2NNLU4F7U.lo.cafe.winston.debug" ],
              "components": [
                {
                   "#": "no_universal_links",
