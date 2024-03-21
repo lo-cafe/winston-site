@@ -20,7 +20,7 @@ const Stats = () => (
       />
       <div className={s.statsWrapper}>
         <Stat number="10K" color="#FFFA81" label="Testflight Users" />
-        <Stat number="2,2K" color="#6570F6" label="Discord Members" />
+        <Stat number="2,9K" color="#6570F6" label="Discord Members" />
         <Stat number="100+" color="#CE5151" label="Github Issues 🤡" />
       </div>
     </div>
